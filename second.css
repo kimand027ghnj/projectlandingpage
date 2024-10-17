@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header1 {
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: flex-end;
+    height: 3em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    gap: 10px;
+    padding: 10px;
+}
+
+#hlogo {
+    margin-right: auto;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(92, 101, 93);
+    padding: 15px;
+}
+
+.box-one {
+    display: flex;
+    margin-right: 16px;
+    padding: 10px;
+    flex-direction: column;
+    background-color: transparent;
+}
+
+.box-one h1 {
+    font-size: 25px;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.box-one p {
+    font-size: 15px;
+
+}
+
+.flex-container img {
+    height: 10rem;
+    width: auto;
+    opacity: 0.5;
+}

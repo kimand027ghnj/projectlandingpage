@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    background-color: blanchedalmond;
+    margin: 0;
+    padding: 0;
+}
+
+.container1 {
+    background-color: rgb(57, 79, 94);
+    height: 4rem;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 8px;
+}
+
+
+#hl0 {
+    display: flex;
+    color: white;
+    margin-right: auto;
+    align-self: center;
+    background-color: rgb(57, 79, 94);
+}
+
+#hl1 {
+    background-color: rgb(57, 79, 94);
+    color: white;
+}
+
+#hl2 {
+    background-color: rgb(57, 79, 94);
+    color: white;
+}
+
+#hl3 {
+    background-color: rgb(57, 79, 94);
+    color: white;
+}
+
+/* CONTAINER 2 */
+.container2 {
+    background-color: rgb(159, 172, 153);
+    height: 15rem;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.body {
+    height: 70px;
+    width: 70px;
+    border-radius: 50px;
+}
+
+#sentence {
+    background-color: rgb(92, 106, 147);
+    display: flex;
+    width: auto;
+    align-items: center;
+
+}
+
+img {
+    background-color: rgb(175, 65, 173);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+#btn {
+    background-color: rgb(188, 83, 83);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container2 button {
+    background-color: rgb(217, 209, 91);
+    border-radius: 40px;
+}
+
+.container3 {
+    height: 13rem;
+    width: auto;
+    background-color: rgb(100, 178, 61);
+}
+
+.container3 button {
+    background-color: rgb(174, 104, 69);
+    display: flex;
+   /* justify-content: end;
+align-items: center;
+    */}

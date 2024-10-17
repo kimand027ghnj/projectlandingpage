@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(79, 74, 64);
+}
+.flex-container {
+    background-color: white;
+    border: solid 2px yellow;
+    border-radius: 5px;
+    margin: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.flex-container img {
+   width: 100%;
+   height: auto;
+}
+
+.flex-container h1 {
+    font-size: 17px;
+    text-align: center;
+    border-bottom: 15px;
+}
+
+.spec {
+    background-color: yellow;
+    padding: 14px;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
